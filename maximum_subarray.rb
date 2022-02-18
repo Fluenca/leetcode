@@ -17,7 +17,7 @@
 #   sum_array.sort.last
 # end
 
-#Using the .max method to compare in only one iteration
+#Using the .max method to compare in only one iteration /// "Array" can be only one number long!!!
 def max_sub_array(nums)
   sum = nums[0]     # setting first value to sum
   max_sum = sum         # setting max sum to sum
@@ -30,5 +30,5 @@ def max_sub_array(nums)
 end
 
 
-nums = [-2,1]
+nums =  [-2,1,-3,4,-1,2,1,-5,4]
 p max_sub_array(nums)
