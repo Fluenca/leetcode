@@ -3,7 +3,3 @@ def add_binary(a, b)
   decimal.to_s(2)
 end
 
-a = "11"
-b = "1"
-
-p add_binary(a, b)
