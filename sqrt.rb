@@ -4,7 +4,7 @@
 #   Math.sqrt(x).to_i
 # end
 
-# works but obviously too inefficient
+# works but obviously to inefficient
 def my_sqrt(x)
   x.times do |num|
     n = x - num
